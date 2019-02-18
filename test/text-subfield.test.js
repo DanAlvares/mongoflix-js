@@ -33,7 +33,7 @@ describe("Text and Subfield Search", async () => {
       filters,
     })
     expect(moviesList.length).toEqual(20)
-    expect(totalNumMovies).toEqual(7261)
+    expect(totalNumMovies).toEqual(7259)
     const firstMovie = moviesList[0]
     expect(firstMovie["title"]).toEqual("2 Fast 2 Furious")
   })

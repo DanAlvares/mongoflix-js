@@ -132,7 +132,8 @@ describe("MongoClient", async () => {
 
       // expect the "movies" collection to have the correct number of movies
       const numMoves = await movies.countDocuments({})
-      expect(numMoves).toBe(46014)
+
+      expect(numMoves).toBe(45993)
     } catch (e) {
       expect(e).toBeNull()
     } finally {
