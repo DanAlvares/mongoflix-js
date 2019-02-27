@@ -139,7 +139,7 @@ describe("Error Handling", async () => {
     } catch (e) {
       expect(e).not.toBeNull()
       // Now let's check the error that was returned from the driver.
-      console.log(e)
+      console.log(e.errmsg)
     }
   })
 })
